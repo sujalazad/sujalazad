@@ -1,4 +1,8 @@
-# This workflow will build and push a node.js application to an Azure Web App when a release is created.
+# This workflow will build and push a node.js application to an Azure Web App when a release is created.- name: Bot Status
+  # You may pin to the exact commit or the version.
+  # uses: jainamoswal/BotStatus@80e002d663244034fe862276cd36bf4a3f839347
+  uses: jainamoswal/BotStatus@v1.1
+  
 #
 # This workflow assumes you have already created the target Azure App Service web app.
 # For instructions see https://docs.microsoft.com/azure/app-service/app-service-plan-manage#create-an-app-service-plan
